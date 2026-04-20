@@ -78,9 +78,9 @@
     
 }
 .link-logo img {
-    max-width: 400%;
-    height: 300px;
-    margin-left: -100px;
+    max-width:120%;
+    height: 150px;
+    margin-left: -30px;
 }   
 .usuario {
     display: flex;
