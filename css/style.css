@@ -1,7 +1,7 @@
 .cabecera {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgb(146, 238, 241);
+    background-color: #EAF4FF;
     position: fixed;
     top: 0;
     left: 0;
@@ -23,7 +23,7 @@
     margin: 0;
     height: calc(100vh - 40px);
     font-family:'Times New Roman', Times, serif;
-    color: rgb(55, 133, 97);
+    color: #DFF5EC;
 }
 
 .carrusel {
@@ -75,6 +75,7 @@
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
+    text-decoration: none;
     
 }
 .link-logo img {
@@ -82,15 +83,33 @@
     height: 150px;
     margin-left: -30px;
 }   
+.logo-text {
+    margin-bottom: 20px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(2, 2, 2);
+    font-size: 24px;
+    padding-top: -20px 0 0;
+    text-decoration: none;
+}
+.link-logo p{
+    margin-left:-20%;
+}
 .usuario {
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 0;
-    margin: 0;
     width: 100%;
     margin-top: auto;
-   
+    margin-left: 10%;
+}
+.nav-usuario:hover{
+    background-color: #617ea4;
+    border-radius: 5px;
+}
+.nav-usuario a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
 }
 .usuario img {
     width: 40px;
@@ -99,32 +118,16 @@
     object-fit: cover;
     position: static;
 
-}
-.usuario span {
-    font-size: 14px;
-   
-}
-.menu a {
-
-    text-decoration: none;
-    font-size: 16px;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-.menu a:hover {
-    background-color: rgb(2, 10, 12);
-}   
+}  
 .accordion-button {
- 
    font-family:'Times New Roman', Times, serif;
+    box-shadow: none !important;
+    border: none !important;
 }
 .accordion-button:hover {
-    background-color: rgb(24, 175, 105);
     color: rgb(15, 28, 24);
 }
 .accordion-body {
-
     font-family:'Times New Roman', Times, serif;
 }
 .accordion-body strong {
@@ -132,12 +135,12 @@
 }
 
 .accordion-button {
-  background-color: #359c60 !important; /* verde */
+  background-color: #4A90E2!important; /* verde */
   color: white !important;
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #68c38e !important; /* verde más oscuro al abrir */
+  background-color: #617ea4 !important; /* verde más oscuro al abrir */
   color: white !important;
 }
 .contenido1 {
